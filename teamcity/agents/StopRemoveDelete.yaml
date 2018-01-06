@@ -1,0 +1,4 @@
+---
+- hosts: TCagents-Vanguard
+  tasks:
+    - script: ../../../scripts/teamcity/agents/StopRemoveDelete.sh

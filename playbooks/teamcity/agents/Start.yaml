@@ -1,0 +1,5 @@
+---
+- hosts: TCagents-Vanguard
+  sudo: true
+  tasks:
+   - script: ../../../scripts/teamcity/agents/AgentsStart.sh 
